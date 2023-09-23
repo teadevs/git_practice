@@ -1,0 +1,48 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Major Mono Display', 'Oxygen Mono', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main {
+    background-color: rgba(0, 255, 255, 0.422);
+    padding: 10px;
+    min-height: 550px;
+}
+
+nav img{
+    width: 100%;
+    border: 3px solid teal;
+    background-color: whitesmoke;
+}
+
+nav {
+    font-family: "Spline Sans Mono", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    width: 100%;
+}
+
+.bio {
+    
+}
+#tea {
+    padding: 10px;
+    margin: auto;
+    float: right;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    border-radius: 35px;
+}
+
+#tea img{
+    border-radius: 200px;
+    border-color: teal;
+    width: 150px;
+    height: auto;
+}
