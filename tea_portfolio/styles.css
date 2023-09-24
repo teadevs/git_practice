@@ -1,20 +1,8 @@
 body {
     background-color: whitesmoke;
-    font-family: 'Major Mono Display', 'Oxygen Mono', sans-serif;
+    font-family: 'Spline Sans Mono', 'Oxygen Mono', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-}
-
-main {
-    background-color: rgba(0, 255, 255, 0.422);
-    padding: 10px;
-    min-height: 550px;
-}
-
-nav img{
-    width: 100%;
-    border: 3px solid teal;
-    background-color: whitesmoke;
 }
 
 nav {
@@ -27,22 +15,41 @@ nav {
     width: 100%;
 }
 
-.bio {
-    
-}
-#tea {
-    padding: 10px;
-    margin: auto;
-    float: right;
-    text-align: center;
-    background-color: teal;
+#navtext a {
     color: white;
-    border-radius: 35px;
+    transition: background-color 0.5s;
+    text-decoration: none;
 }
 
-#tea img{
-    border-radius: 200px;
-    border-color: teal;
+#navtext a:hover {
+    background-color: rgb(18, 124, 159);
+    text-shadow: paleturquoise 1px 0 10px;}
+
+#hero img{
+  width: 100%;
+}
+
+
+main {
+    background-color: rgba(0, 255, 255, 0.422);
+    padding: 10px;
+    min-height: 1000px;
+}
+
+
+.aboutme {
+    width: 100%;
+    font-size: 13px;
+    font-family: 'Oxygen Mono', sans-serif;
+    font-weight: 400;
+    color: black;
+    display: inline-block;
+}
+
+
+.aboutme img{
     width: 150px;
     height: auto;
+    padding: 10px;
+    display: inline-block;
 }
