@@ -1,6 +1,6 @@
 body {
     background-color: whitesmoke;
-    font-family: 'Spline Sans Mono', 'Oxygen Mono', sans-serif;
+    font-family: 'Josefin Sans', 'Oxygen Mono', sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -31,25 +31,72 @@ nav {
 
 
 main {
-    background-color: rgba(0, 255, 255, 0.422);
-    padding: 10px;
+    background-color: rgba(239, 245, 245, 0.422);
+    padding: 25px;
+    padding-top: 30px;
     min-height: 1000px;
 }
 
-
 .aboutme {
-    width: 100%;
+    display: inline-block;
+}
+
+.bio {
     font-size: 13px;
     font-family: 'Oxygen Mono', sans-serif;
     font-weight: 400;
     color: black;
-    display: inline-block;
 }
 
+#aboutpic {
+    float: right;
+    padding: 10px;
+    text-wrap: 5px ; 
+}
 
-.aboutme img{
+#aboutpic img{
     width: 150px;
     height: auto;
+}
+
+.specialty{
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Oxygen Mono', sans-serif;
+
+}
+
+.specialist ul{
+    list-style-type: none; 
+    line-height: 2.5;
+    font-weight: 300;
+}
+
+.whereever{
+   width: 75%;
+   height: 300px;
+   text-align: center;
+   margin: auto;
+
+}
+
+#thoughts {
+    background-color: white;
+    border: 1px solid black;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.contact{
+    align-self: center;
+    width: auto;
+    display:flexbox;
+    background-color: white;
+    height: 500px;
     padding: 10px;
-    display: inline-block;
+    border: 3px solid black;
+}
+
+footer {
+    text-align: center;
 }
