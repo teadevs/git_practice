@@ -21,12 +21,32 @@ nav {
     text-decoration: none;
 }
 
+#navtext ul{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: hidden;
+
+}
+
+#navtext li {
+    display: inline;
+
+}
+
+
 #navtext a:hover {
     background-color: rgb(18, 124, 159);
     text-shadow: paleturquoise 1px 0 10px;}
 
-#hero img{
-  width: 100%;
+#hero{
+  width: auto;
+  height: 200px;
+  background-image: url("./assets/headerbar.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -109,3 +129,106 @@ main {
 footer {
     text-align: center;
 }
+
+
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+      line-height: 1.25;
+      overflow: auto;
+    }
+
+    #hero{
+        width: auto;
+        height: 150px;
+        background-image: url("/tea_portfolio/assets/creativitea.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+
+    #navtext ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        border: 1px solid #555;
+    }
+
+    li a {
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        text-align: center;
+        border: 1px solid #555;
+
+    }
+
+    main {
+        padding: 15px;
+        padding-top: 20px;
+        align-items: center;
+    }
+    .bio {
+        font-size: 15px;
+        font-weight:200;
+        padding-bottom: 25px;
+    }
+
+    #aboutpic {
+        float:none
+        padding: 15px;
+        text-wrap: none;
+        padding-bottom: 125px;
+
+    }
+    #aboutpic img {
+        width: 50px;
+        border-radius: 20px;
+        height: auto;
+        padding: 10px;
+    }
+    .specialty{
+        background-color:lightskyblue;
+        text-align: center;
+        border-radius: 15%;
+        border: 2px solid teal;
+    }
+    
+    .specialty th {
+        font-style: italic;
+    }
+   
+    .specialty ul{
+        list-style-type: none; 
+        font-size: 14px;
+        text-align: center:
+    }
+    .whereever{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: flexbox;
+    }
+    .contact{
+        width: 100%;
+        height: 200px;
+        border: 1px solid grey;  
+    }
+
+    .thought{
+        width: 100%;
+        display:flex;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+
+
+  }
+  
