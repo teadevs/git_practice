@@ -19,6 +19,29 @@
     <main>
         <div class="contact">
             <h2>Let's Chat About Your Project!</h2>
+            <form action="/contact.html" method="post">
+                <label for="firstname">What's your name?</label>
+                 <input type="text" name="name-text" id="firstname" minlength="3" maxlength="500"required><br>
+                 <label for="email">What's your email?</label>
+                 <input type="email" name="email-text" id="email" minlength="10" maxlength="30" required><br>
+                 <label for="specialty-pick" >What do you need help with?</label>
+                 <select id="specialty-pick" name="specialties_needed">
+                    <option value="marketing">Marketing</option>
+                    <option value="designservice">Design Services</option>
+                    <option value="webdevelopment">Web Development</option>
+                    <option value="writing">Writing Services</option>
+                    <option value="consulting">Consulting</option>
+                 </select><br><br>
+                 <section>
+                 <label for="contact_area">Tell me more</label><br>
+                 <textarea id="contact_area" name="contactarea" rows="15" cols="50" minlength="10" maxlength="30" required>I need help with...</textarea>
+                </section>
+                <section class="submission" >
+                <input type="submit" value="Hit me with your best shot">
+            </section>
+
+            </form>
+            
 
 
 
