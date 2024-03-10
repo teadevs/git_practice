@@ -1,0 +1,23 @@
+ .comment-container{
+    width:fit-content;
+    background-color: white;
+    font-size: .5rem;
+    overflow: scroll;
+
+ }
+
+ .comment-container:hover #slide{
+    transition: 1s;
+    left: 0;
+ }
+
+ #slide{
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+
+}

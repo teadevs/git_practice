@@ -1,38 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+body,
+html {
+
+  font-family: 'Dosis', 'Avant Garde', sans-serif;
+  background: white;
+}
+
 .App {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh; 
+}
+
+header{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.socialsloth {
+  padding: 10px;
+  margin: auto;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  img { width: 100%; height: auto; }
+animation: float 6s ease-in-out infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+  font-size: 2rem;
+  margin: 10px 0 0 0;
+  font-weight: bolder;
+  text-transform: lowercase;
+  text-align: center;
+  color: rgb(0, 100%, 0);
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-size: 1.5rem;
+  font-weight: light;
+  color: #333333;
+  text-align: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+@media only screen and (max-width: 600px) {
+  .App {
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
 }
